@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.jpeg";
 import projImg2 from "../assets/img/project-img2.jpg";
 import projImg3 from "../assets/img/project-img3.jpeg";
+import projImg4 from "../assets/img/house-price.jpg";
+import projImg5 from "../assets/img/Predictive-Maintenance.png"
+import projImg6 from "../assets/img/sentiment-analysis.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,7 +21,7 @@ export const Projects = () => {
     {
       title: "TaskMaster",
       description: "A PWA that allows users to manage their to-do lists offline, with automatic syncing when they come back online. Features include push notifications, home screen installation, and offline support.",
-      imgUrl: projImg2,
+      imgUrl: projImg1,
     },
     {
       title: "Galaxy Explorer",
@@ -26,19 +29,19 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Customer Segmentation",
-      description: "An analysis of customer data using clustering algorithms to identify distinct customer segments. The results were used to create targeted marketing campaigns and improve customer satisfaction.",
-      imgUrl: projImg2,
+      title: "House Price Prediction",
+      description: "House price prediction uses historical data and machine learning algorithms to estimate the market value of properties. By analyzing factors like location, size, amenities, and market trends, these models can provide accurate predictions for buyers, sellers, and real estate professionals. This information is invaluable for making informed decisions in the real estate market.",
+      imgUrl: projImg4,
     },
     {
       title: "Predictive Maintenance",
-      description: "A predictive maintenance model that forecasts equipment failures before they occur. The model uses machine learning algorithms to analyze historical data and predict future maintenance needs.",
-      imgUrl: projImg3,
+      description: "This project leverages the power of the Internet of Things (IoT) and machine learning to predict equipment failures before they happen. By constantly monitoring sensor data from machines (like temperature, vibration, and pressure), the model learns normal operating patterns.",
+      imgUrl: projImg5,
     },
     {
       title: "Sentiment Analysis",
-      description: "A sentiment analysis tool that evaluates customer feedback to identify positive and negative sentiments. The tool uses natural language processing techniques to analyze text data and generate sentiment scores.",
-      imgUrl: projImg1,
+      description: "This project dives into the world of social media to uncover the true sentiments hidden within the deluge of online conversations. Focusing on platforms like Twitter, Facebook, and Instagram, the project utilizes cutting-edge Natural Language Processing (NLP) techniques to extract, process, and analyze text data from posts, comments, and reviews.",
+      imgUrl: projImg6,
     },
     {
       title: "Fitness Tracker",
