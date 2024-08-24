@@ -6,6 +6,12 @@ import projImg3 from "../assets/img/project-img3.jpeg";
 import projImg4 from "../assets/img/house-price.jpg";
 import projImg5 from "../assets/img/Predictive-Maintenance.png"
 import projImg6 from "../assets/img/sentiment-analysis.jpg";
+import projImg7 from "../assets/img/weather-app-screenshot.png"
+import projImg8 from "../assets/img/task-master.png";
+import projImg9 from "../assets/img/ai-text-summarizer.png";
+import projImg10 from "../assets/img/gdsc_mbu.jpeg";
+import projImg11 from "../assets/img/notes-app.png";
+import projImg12 from "../assets/img/food-order.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,17 +22,17 @@ export const Projects = () => {
     {
       title: "WeatherWise",
       description: "A web application that fetches real-time weather data from a backend API and displays it in a user-friendly interface. Users can search for weather conditions by city or zip code.",
-      imgUrl: projImg1,
+      imgUrl: projImg7,
     },
     {
       title: "TaskMaster",
       description: "A PWA that allows users to manage their to-do lists offline, with automatic syncing when they come back online. Features include push notifications, home screen installation, and offline support.",
-      imgUrl: projImg1,
+      imgUrl: projImg8,
     },
     {
-      title: "Galaxy Explorer",
-      description: "An interactive website that takes users on a journey through the solar system. Features include scrolling animations, parallax effects, and gamification elements like quizzes and rewards.",
-      imgUrl: projImg1,
+      title: "AI Text Summarization Web App",
+      description: "AI Text Summarization Web Application is a text summarizing tool. It uses Hugging Face Inference API to summarize large text. Built with Node.js, Express.js, HTML, CSS, and JavaScript. Simplifies text comprehension, saving time and effort. User-friendly interface for easy text summarization.",
+      imgUrl: projImg9,
     },
     {
       title: "House Price Prediction",
@@ -44,19 +50,19 @@ export const Projects = () => {
       imgUrl: projImg6,
     },
     {
-      title: "Fitness Tracker",
-      description: "A fitness tracking app that monitors users' daily activity levels and provides personalized workout recommendations. The app includes features like step tracking, calorie counting, and workout logging.",
-      imgUrl: projImg3,
+      title: "GDSC MBU",
+      description: "This project is an Android application developed using Kotlin and Java. It utilizes Gradle for build automation and dependency management. The application is designed to provide a seamless user experience with a focus on performance and reliability. The project structure follows the standard Android architecture, ensuring maintainability and scalability.",
+      imgUrl: projImg10,
     },
     {
-      title: "Recipe Finder",
-      description: "A recipe search app that helps users discover new dishes and plan meals. The app allows users to search for recipes by ingredients, cuisine, or dietary preferences, and save their favorite recipes for later.",
-      imgUrl: projImg1,
+      title: "Notes Taking App",
+      description: "A React Native app for creating and managing notes, with features like note organization and integration, built using JavaScript and React Native for a seamless user experience.",
+      imgUrl: projImg11,
     },
     {
-      title: "Language Translator",
-      description: "A language translation app that translates text and speech between multiple languages. The app uses machine learning algorithms to improve translation accuracy and provide real-time language support for users.",
-      imgUrl: projImg2,
+      title: "Food Order App with React Native",
+      description: "User can order the items veg or non veg and get the item delivered by choosing quantity and entering address.",
+      imgUrl: projImg12,
     },
   ];
 
