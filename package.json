@@ -2,6 +2,7 @@
   "name": "myexpressjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://chetankumarpulipati.github.io/portfolio-website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -24,14 +25,14 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://chetankumarpulipati.github.io/portfolio-website",
   "scripts": {
-  "start": "react-scripts start",
-  "build": "npm run copy-public && react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "copy-public": "node copy-public-to-root.js"
-},
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -53,7 +54,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "keywords": [],
-  "author": "sravya",
+  "author": "chetankumarpulipati",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.1.1"
