@@ -24,6 +24,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://chetankumarpulipati.github.io/portfolio-website",
   "scripts": {
   "start": "react-scripts start",
   "build": "npm run copy-public && react-scripts build",
@@ -53,5 +54,8 @@
   "main": "index.js",
   "keywords": [],
   "author": "sravya",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
